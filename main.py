@@ -85,6 +85,8 @@ def choice_char_class(char_name: str) -> Character:
 
 
 def start_training(char_class: object) -> Character:
+    """Возвращает методы класса Character"""
+
     cmd: str = None
     print('Потренируйся управлять своими навыками.')
     print('Введи одну из команд: attack — чтобы атаковать противника, '
