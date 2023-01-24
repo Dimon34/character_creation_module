@@ -107,4 +107,16 @@ def start_training(char_class: object) -> Character:
     return print('Тренировка окончена.')
 
 
-choice_char_class(input('Введи свое имя '))
+def main():
+    """Функция точка входа."""
+    print('Приветствую тебя, искатель приключений!')
+    print('Прежде чем начать игру...')
+    choice_char_class: str = input('...назови себя: ')
+    print(f'Здравствуй, {choice_char_class}! '
+          'Сейчас твоя выносливость — 80, атака — 5 и защита — 10.')
+    print('Ты можешь выбрать один из трёх путей силы:')
+    print('Воитель, Маг, Лекарь')
+    
+
+main()
+
